@@ -1,0 +1,151 @@
+
+.advantages {
+  padding-top: 80px;
+}
+
+.advantages-title {
+  font-weight: 600;
+}
+
+.column {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+
+.aspects__name {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+@media (max-width:1600px) and (min-width:1280px) {
+  .aspects__pic {
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .aspects__name {
+    font-size: 24px;
+  }
+
+  .advantages-title {
+    font-weight: 400;
+  }
+
+  .column {
+    gap: 27px;
+    margin-top: 40px;
+  }
+
+  .advantages {
+    padding-top: 33px;
+  }
+}
+
+@media (max-width:1280px) and (min-width:1062px) {
+  .advantages {
+    padding-top: 27px;
+  }
+
+  .aspects__pic {
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .aspects__name {
+    font-size: 24px;
+  }
+
+  .advantages-title {
+    font-weight: 400;
+  }
+
+  .column {
+    gap: 37px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:1062px) and (min-width:768px) {
+  .advantages {
+    padding-top: 29px;
+  }
+
+  .aspects__pic {
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .aspects__name {
+    font-size: 20px;
+  }
+
+  .column {
+    gap: 44px;
+    margin-top: 40px;
+  }
+
+  .advantages-title {
+    font-weight: 400;
+  }
+}
+
+@media (max-width:767px) and (min-width:375px) {
+  .column {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+  }
+
+  .aspects__pic {
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .aspects__name {
+    font-size: 20px;
+  }
+
+  .advantages {
+    padding-top: 25px;
+  }
+
+  .column {
+    gap: 40px;
+  }
+
+  .advantages-title {
+    font-weight: 400;
+  }
+}
+
+@media (max-width:375px) and (min-width:0px) {
+  .column {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .aspects__pic {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .aspects__name {
+    font-size: 16px;
+  }
+
+  .column {
+    gap: 14px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .advantages-title {
+    font-weight: 400;
+  }
+
+  .advantages {
+    padding-top: 48px;
+  }
+}

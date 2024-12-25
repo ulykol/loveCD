@@ -1,0 +1,357 @@
+.use-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 72px;
+  padding-bottom: 57px;
+}
+
+
+.use-title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 32px;
+  margin-top: 62px;
+}
+
+
+.home-use {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 60px;
+}
+.home_color{
+  background-color: #eee;
+}
+
+.home-use__market {
+  max-width: 356px;
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+.home-use__market-pic {
+  max-width: 211px;
+  margin-top: 32px;
+  margin-left: 73px;
+}
+
+
+.proff-use {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 16px;
+  padding-bottom: 60px;
+}
+.proff_color{
+  background-color: #DFDFDF;
+}
+.home-use_pic-size,
+.proff-use_pic-size {
+  max-width: 372px;
+  max-height: 372px;
+}
+
+.home-use__subtitle,
+.proff-use__subtitle {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.proff-use__button {
+  background-color: #D3ABDC;
+  width: 356px;
+  margin-top: 36px;
+}
+
+.proff-use__study {
+  margin-left: 16px;
+  margin-top: 65px;
+  max-width: 356px;
+}
+
+@media (max-width:1600px) and (min-width:1280px) {
+  .use-title {
+    font-size: 40px;
+  }
+
+  .use-page {
+    margin-top: 31px;
+    padding-bottom: 62px;
+  }
+
+  .home-use,
+  .proff-use {
+    gap: 9px;
+  }
+
+
+  .home-use_pic-size,
+  .proff-use_pic-size {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .home-use__market {
+    max-width: 250px;
+    margin-top: 44px;
+    margin-left: 16px;
+  }
+
+  .home-use__market-pic {
+    margin-top: 47px;
+    margin-left: 0px;
+  }
+
+
+  .home-use__subtitle,
+  .proff-use__subtitle {
+    font-size: 20px;
+  }
+
+  .proff-use__button {
+    width: 235px;
+    margin-top: 23px;
+  }
+
+  .proff-use__study {
+    margin-left: 0px;
+    margin-top: 19px;
+    max-width: 250px;
+  }
+}
+
+@media (max-width:1280px) and (min-width:1062px) {
+  .use-title {
+    font-size: 40px;
+    margin-top: 19px;
+  }
+
+  .home-use_pic-size,
+  .proff-use_pic-size {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+.home-use{
+  gap:12px;
+}
+  .home-use__market {
+    max-width: 250px;
+    margin-top: 44px;
+    margin-left: 11px;
+  }
+
+  .home-use__market-pic {
+    margin-top: 48px;
+    margin-left: 0px;
+  }
+
+
+  .home-use__subtitle,
+  .proff-use__subtitle {
+    font-size: 20px;
+    max-width: 235px;
+  }
+
+  .proff-use__button {
+    max-width: 250px;
+    margin-top: 21px;
+  }
+
+  .proff-use__study {
+    margin-left: 1px;
+    margin-top: 19px;
+    max-width: 250px;
+  }
+}
+
+@media (max-width:1062px) and (min-width:792px) {
+
+  .use-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .use-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding-bottom: 114px;
+  }
+  .home-use_pic-size,
+  .proff-use_pic-size {
+    max-width: 224px;
+    max-height: 224px;
+  }
+
+.home-use{
+  gap:12px;
+  justify-content: center;
+}
+
+  .home-use__market {
+    max-width: 600px;
+    margin-top: 26px;
+    margin-left: 11px;
+    text-align: center;
+  }
+
+  .home-use__market-pic {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-bottom: 49px;
+  }
+
+
+  .home-use__subtitle,
+  .proff-use__subtitle {
+    font-size: 18px;
+    
+  }
+
+  .proff-use {
+    justify-content: center;
+    gap:12px;
+  }
+
+  .proff-use__button {
+    max-width: 250px;
+    margin-top: 24px;
+  }
+
+  .proff-use__study {
+    margin-left: 1px;
+    margin-top: 25px;
+    max-width: 890px;
+    text-align: center;
+  }
+}
+@media (max-width:791px) and (min-width:375px) {
+
+  .use-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 56px;
+  }
+
+  .use-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding-bottom: 114px;
+  }
+  .home-use_pic-size,
+  .proff-use_pic-size {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+.home-use{
+  gap:12px;
+  justify-content: center;
+}
+
+  .home-use__market {
+    max-width: 600px;
+    margin-top: 49px;
+    margin-left: 11px;
+    text-align: center;
+  }
+
+  .home-use__market-pic {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-bottom: 49px;
+  }
+
+
+  .home-use__subtitle,
+  .proff-use__subtitle {
+    font-size: 18px;
+    max-width: 635px;
+  }
+  
+
+  .proff-use {
+    justify-content: center;
+  }
+
+  .proff-use__button {
+    max-width: 250px;
+    margin-top: 24px;
+  }
+
+  .proff-use__study {
+    margin-left: 1px;
+    margin-top: 53px;
+    max-width: 890px;
+    text-align: center;
+  }
+}
+
+@media (max-width:375px) and (min-width:0px) {
+
+ .use-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    margin-top: 56px;
+  }
+
+  .use-page {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 122px;
+  }
+  .home-use_pic-size,
+  .proff-use_pic-size {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+.home-use{
+  gap:8px;
+  justify-content: center;
+}
+
+  .home-use__market {
+    max-width: 600px;
+    margin-top: 49px;
+    margin-left: 11px;
+    text-align: center;
+  }
+
+  .home-use__market-pic {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-bottom: 49px;
+  }
+
+
+  .home-use__subtitle,
+  .proff-use__subtitle {
+    font-size: 18px;
+    max-width: 635px;
+  }
+  
+.proff-use__button{
+  width: auto;
+}
+  .proff-use {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .proff-use__button {
+    max-width: 250px;
+    margin-top: 24px;
+  }
+
+  .proff-use__study {
+    margin-left: 1px;
+    margin-top: 53px;
+    max-width: 890px;
+    text-align: center;
+  }
+}
